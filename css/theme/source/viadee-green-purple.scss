@@ -1,0 +1,26 @@
+/**
+ * viadee theme for reveal.js. 
+ */
+
+
+// Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+// ---------------------------------------------
+
+
+
+$viadeeColor1: #7ebca9;
+$viadeeColor2: #681885;
+$headingColor: $viadeeColor1;
+$mainFontSize: 18pt;
+
+$viadeeGradientColorStart: $viadeeColor1;
+$viadeeGradientColorEnd: $viadeeColor2;
+
+
+// Theme template ------------------------------
+@import "../template/viadee";
+// ---------------------------------------------
+
+
