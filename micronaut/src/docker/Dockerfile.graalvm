@@ -1,0 +1,9 @@
+FROM maven:3.6.3-openjdk-11 as maven
+COPY . /home/app/parkhaus-manager
+WORKDIR /home/app/parkhaus-manager
+RUN mvn -ntp install
+
+FROM ghcr.io/graalvm/graalvm-ce:java11-21.0.0.2
+COPY --from=maven /home/app/parkhaus-manager/target/parkhaus-manager-micronaut-1.0-SNAPSHOT.jar /deployments/app.jar
+EXPOSE 8080
+ENTRYPOINT ["java","-jar","/deployments/app.jar"]

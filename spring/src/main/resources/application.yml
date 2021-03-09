@@ -1,0 +1,12 @@
+parkhaus:
+  gebuehr: 2
+  toleranceBtwPaymentAndExit: 30
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  metrics:
+    prometheus:
+      enabled: true

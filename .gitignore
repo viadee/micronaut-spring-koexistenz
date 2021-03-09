@@ -21,3 +21,11 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+/.idea/
+/spring/*.iml
+/micronaut/target/
+/micronaut-spring/target/
+/spring/*.iml
+/micronaut-spring/*.iml
+/micronaut/*.iml
+/spring/target/
