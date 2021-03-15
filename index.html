@@ -69,6 +69,8 @@
                 <h3>Konkurrenz oder Koexistenz?</h3>
                 <p>
                     <small><a href="mailto:pia.diedam@viadee.de">Pia Diedam</a> <a href="https://twitter.com/piadiedam" class="fa fa-twitter"></a> <a href="https://www.xing.com/profile/Pia_Diedam" class="fa fa-xing"></a></small>
+                    <br/>
+                    <a href="https://github.com/viadee/micronaut-spring-koexistenz" class="fa fa-github" style="color: dimgrey"></a>
                 </p>
             </div>
         </section>
@@ -80,17 +82,17 @@
                 <div class="multiCol">
                     <div class="col" style="width: 25%"><img src="assets/dip.jpg" style="margin-top: 0 "/></div>
                     <div class="col" style="width: 80%"><h3>Über mich</h3>
-                        <p>Pia Diedam <br />
+                        <p>Pia Diedam <br/>
 
-                            Wirtschaftsinformatik an der WWU Münster <br />
-                            <br />
-                            Beraterin <br />
-                            viadee Unternehmensberatung AG <br />
+                            Wirtschaftsinformatik an der WWU Münster <br/>
+                            <br/>
+                            Beraterin <br/>
+                            viadee Unternehmensberatung AG <br/>
                             Seit 2017 in Projekten (Java, Architektur & Cloud)
-                            <br />
-                            Software von und für Menschen<br />
-                            <br />
-                            <img src="assets/racing.png" width="60"/> <img src="assets/spaguetti.png" width="60"/> <img src="assets/vogel.png" width="60" />
+                            <br/>
+                            Software von und für Menschen<br/>
+                            <br/>
+                            <img src="assets/racing.png" width="60"/> <img src="assets/spaguetti.png" width="60"/> <img src="assets/vogel.png" width="60"/>
                         </p></div>
                 </div>
             </section>
@@ -135,9 +137,9 @@
                     </tr>
                     <tr>
                         <td>Object Computing Inc.</td>
-                        <td>Aktueller Release: <br/> 2.3.1</td>
+                        <td>Aktueller Release: <br/> 2.4.0</td>
                         <td>Java, Groovy & Kotlin</td>
-                        <td>GitHub-Sternchen: 4.7k</td>
+                        <td>GitHub-Sternchen: 4.8k</td>
                     </tr>
                     <tr>
                         <td>Micronaut Foundation</td>
@@ -173,30 +175,30 @@
 
             </section>
 
-                <section>
-                    <h1>Performance</h1>
-                    <canvas data-chart="bar">
-                        <!--
-                        {
-                         "data": {
-                          "labels": ["JVM","Native Image"],
-                          "datasets": [
-                           {
-                            "data":[4.3],
-                            "label":"Spring","backgroundColor":"#DFA93F"
-                           },
-                           {
-                            "data":[1.8,0.36],
-                            "label":"Micronaut","backgroundColor":"#681885"
-                           }
-                          ]
-                         },
-                         "options": { "responsive": "true" }
-                        }
-                        -->
-                    </canvas>
-                    <p style="font-size: smaller">Startzeit in Sekunden</p>
-                </section>
+            <section>
+                <h1>Performance</h1>
+                <canvas data-chart="bar">
+                    <!--
+                    {
+                     "data": {
+                      "labels": ["JVM","Native Image"],
+                      "datasets": [
+                       {
+                        "data":[4.3],
+                        "label":"Spring","backgroundColor":"#DFA93F"
+                       },
+                       {
+                        "data":[1.8,0.36],
+                        "label":"Micronaut","backgroundColor":"#681885"
+                       }
+                      ]
+                     },
+                     "options": { "responsive": "true" }
+                    }
+                    -->
+                </canvas>
+                <p style="font-size: smaller">Startzeit in Sekunden</p>
+            </section>
 
             <section>
                 <h1>Performance</h1>
@@ -236,12 +238,11 @@
             </section>
 
 
-
             <section>
                 <h1>Features</h1>
 
                 <iframe style="width: 100%; height: 500px" src="https://micronaut.io/launch/"></iframe>
-                <p style="font-size: x-small"><a href="https://micronaut.io/launch/">https://micronaut.io/launch/</a> </p>
+                <p style="font-size: x-small"><a href="https://micronaut.io/launch/">https://micronaut.io/launch/</a></p>
 
             </section>
 
@@ -563,8 +564,8 @@ public class ApplicationConfiguration {
                     </tr>
                     <tr>
                         <td>Testen</td>
-                        <td>Unterstützung, duch <span>@SpringBootTest</span>, Testslices, Integration mit Mockito/JUnit</td>
-                        <td>Unterstützung, duch <span>@MicronautTest</span>, Integration mit Mockito/JUnit</td>
+                        <td>Unterstützung, duch <span class="inline-code">@SpringBootTest</span>, Testslices, Integration mit Mockito/JUnit</td>
+                        <td>Unterstützung, duch <span class="inline-code">@MicronautTest</span>, Integration mit Mockito/JUnit</td>
                     </tr>
                     <tr>
                         <td>Build Management</td>
@@ -572,9 +573,6 @@ public class ApplicationConfiguration {
                         <td>Maven: Parent-Projekt & Annotation Processing; Gradle: Plugins & Annotation Processing</td>
                     </tr>
                 </table>
-                <p>
-                    und vieles mehr...
-                </p>
             </section>
 
 
@@ -582,7 +580,7 @@ public class ApplicationConfiguration {
                 <div style="background-image: url('assets/shuttle.png'); background-size: 12%; background-repeat: no-repeat; background-position: bottom center; height: 350px">
                     <div></div>
                     <div>
-                        <h1>Fazit Wissenstransfer</h1>
+                        <h1>Fazit - Wissenstransfer</h1>
                         <ul>
                             <li>Kernzkonzepte sind fast identisch</li>
                             <li>Spring bietet mehr Konfigurationsmöglichkeiten</li>
@@ -621,7 +619,7 @@ public class ApplicationConfiguration {
                             </p>
 
                             <p>&#10132; Sonderfall <b>Native Images:</b></p>
-                                <ul>
+                            <ul>
                                 <li>Ausschließlich als Container</li>
                                 <li>Erhöhte Buildzeit und Speicherverbrauch beim Build</li>
                             </ul>
@@ -640,15 +638,14 @@ public class ApplicationConfiguration {
                 <div class="multiCol">
                     <div class="multiCol">
                         <div class="col" style="align-content: center"><img data-id="cloud" src="assets/cloud.svg" width="50px"/>
-                            <p>Verteilte Konfiguration </p>
+                            <p>Verteilte & externalisierte Konfiguration</p>
                             <ul>
                                 <li>HashiCorp Consul & Vault</li>
                                 <li>Spring Cloud Config</li>
                             </ul>
                         </div>
                         <div class="col" style="align-content: center"><img data-id="server" src="assets/server.svg" width="50px"/>
-
-                            <p>Verteilte Konfiguration </p>
+                            <p>Externalisierte Konfiguration</p>
                             <ul>
                                 <li>.properties-Dateien</li>
                                 <li>.yaml-Dateien</li>
@@ -664,16 +661,17 @@ public class ApplicationConfiguration {
                 <div class="multiCol">
                     <div class="multiCol">
                         <div class="col" style="align-content: center"><img data-id="cloud" src="assets/cloud.svg" width="50px"/>
+                            <p></p>
                             <ul>
-                                <li>Micrometer (inkl. Prometheus, JMX, Graphite, ...</li>
-                                <li>OpenTracing API (Zipkin & Jaeger)</li>
+                                <li>Micrometer</li>
+                                <li>OpenTracing API</li>
                             </ul>
                         </div>
                         <div class="col" style="align-content: center"><img data-id="server" src="assets/server.svg" width="50px"/>
 
                             <ul>
                                 <li>Logback & Log4J2</li>
-                                <li>Micronaut Management (Äquivalent zum Actuator)</li>
+                                <li>Micronaut Management (Äquivalent zum Spring Boot Actuator)</li>
                             </ul>
                         </div>
                     </div>
@@ -685,7 +683,7 @@ public class ApplicationConfiguration {
                 <div style="background-image: url('assets/shuttle.png'); background-size: 12%; background-repeat: no-repeat; background-position: bottom center; height: 350px">
                     <div></div>
                     <div>
-                        <h1>Fazit Infrastruktur</h1>
+                        <h1>Fazit - Infrastruktur</h1>
                         <ul>
                             <li>Vielfältige Management- & Monitoringsysteme werden unterstützt</li>
                             <li>Cloud-Infrastruktur umfassend bedacht</li>
@@ -737,7 +735,7 @@ public class ApplicationConfiguration {
                 <p>Es wird ein Subset an Spring Features für die direkte Migration unterstützt. </p>
 
                 <iframe style="width: 100%; height: 500px" src="https://micronaut-projects.github.io/micronaut-spring/latest/guide/#springAnnotations"></iframe>
-                <p style="font-size: x-small"><a href="https://micronaut-projects.github.io/micronaut-spring/latest/guide/#springAnnotations">https://micronaut-projects.github.io/micronaut-spring/latest/guide/#springAnnotations</a> </p>
+                <p style="font-size: x-small"><a href="https://micronaut-projects.github.io/micronaut-spring/latest/guide/#springAnnotations">https://micronaut-projects.github.io/micronaut-spring/latest/guide/#springAnnotations</a></p>
             </section>
 
             <section>
@@ -745,8 +743,8 @@ public class ApplicationConfiguration {
                 <p>Die <span class="inline-code">pom.xml</span> muss umgebaut werden. </p>
                 <ol>
                     <li>Micronaut-Parent hinzufügen</li>
-                    <li>Micronaut-Abhängigkeite hinzufügen</li>
-                    <li>Annotation Processing ergänzen</li>
+                    <li>Micronaut-Abhängigkeiten hinzufügen</li>
+                    <li>Build erweitern: Plugin hinzufügen & Annotation Processing ergänzen</li>
                 </ol>
             </section>
 
@@ -777,7 +775,7 @@ public class ApplicationConfiguration {
                 <div style="background-image: url('assets/shuttle.png'); background-size: 12%; background-repeat: no-repeat; background-position: bottom center; height: 350px">
                     <div></div>
                     <div>
-                        <h1>Fazit Migration</h1>
+                        <h1>Fazit - Migration</h1>
                         <ul>
                             <li>
                                 Migrationsprojekt von Micronaut ist für übersichtliche Anwendungen gut geeignet.
@@ -798,6 +796,8 @@ public class ApplicationConfiguration {
                 <h3>Koexistenz?</h3>
                 <p>
                     <small><a href="mailto:pia.diedam@viadee.de">Pia Diedam</a> <a href="https://twitter.com/piadiedam" class="fa fa-twitter"></a> <a href="https://www.xing.com/profile/Pia_Diedam" class="fa fa-xing"></a></small>
+                    <br/>
+                    <a href="https://github.com/viadee/micronaut-spring-koexistenz" class="fa fa-github" style="color: dimgrey"></a>
                 </p>
             </div>
         </section>
@@ -805,7 +805,11 @@ public class ApplicationConfiguration {
 
         <section>
             <h1>Quellen</h1>
-            <span>Photo by <a href="https://unsplash.com/@deko_lt?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Valdemaras D.</a> on <a href="https://unsplash.com/s/photos/norway-infrastructure?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+            <div>Photo by <a href="https://unsplash.com/@simonmaage?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Simon Maage</a> on <a href="/@simonmaage?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+            </div>
+            <div>Photo by <a href="https://unsplash.com/@deko_lt?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Valdemaras D.</a> on <a
+                    href="https://unsplash.com/s/photos/norway-infrastructure?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">
+                Unsplash</a></div>
             <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
             <div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
             <div>Icons made by <a href="https://www.flaticon.com/de/autoren/good-ware" title="Good Ware">Good Ware</a> from <a href="https://www.flaticon.com/de/" title="Flaticon">www.flaticon.com</a></div>
