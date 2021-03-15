@@ -1,5 +1,10 @@
 # Micronaut und Spring - Konkurrenz oder Koexistenz?
 
-Beispielprojekte zum Vortrag "Micronaut und Spring - Konkurrenz oder Koexistenz?" von Pia Diedam
+![Github_Micronaut-und-Spring](https://user-images.githubusercontent.com/5110684/111145778-ef31d900-8588-11eb-8ffc-a73e4fc5844f.jpg)
+
+Die Faszination um neue Java-Frameworks wie Micronaut ist ungebrochen. Der Einstieg ist leicht und mit wenigen Handgriffen hat man eine lauffähige Anwendung, vom Rest-Endpunkt bis zum Datenbankzugriff. Auch zum ersten GraalVM Native Image ist der Weg nicht mehr weit: Schnell hat man das Gefühl auf der Java-Überholspur zu sein. Im Alltag bekommt man nur leider viel zu selten die Gelegenheit eine Anwendung ganz neu ohne Altlasten aufzubauen. Die Vision von einer reinen Cloud orientierten Anwendungslandschaft ist zwar reizvoll, aber für die meisten Unternehmen noch in weiter Ferne. Und genau deshalb möchten ich unter die Lupe nehmen, wie gut sich Micronaut in bestehende technische und organisatorische Strukturen integrieren lässt. Ausgehend von typischen Spring-Anwendungen möchte ich die Aspekte Wissenstransfer (Wie kann ich vorhandenes Wissen transferieren?), Infrastruktur (Wie gut kann kann ich vorhandene Infrastruktur verwenden?) und Migrationspfade (Wie kann ich aus einer Spring-Boot-Anwendung eine Micronaut-Anwendung machen?) beleuchten. Wie gut funktionieren Micronaut und Spring im Zusammenspiel und welche Hürden gibt es in dieser Konstellation? Ich möchte einen Weg finden diesem Framework eine Chance zu geben, ohne auf bewährte Dinge verzichten zu müssen und der Cloud-optimierten Anwendungslandschaft Schritt für Schritt näher zu kommen.
+
+## Über die Speakerin
+Pia Diedam ist seit 2017 Beraterin bei der viadee IT-Unternehmensberatung. Seit dem Studium der Wirtschaftsinformatik ist sie sowohl im internen Forschungs- und Entwicklungsbereich, als auch extern im Kundeneinsatz an Java-Projekten beteiligt. Sie ist begeistert von dem Zusammenspiel unterschiedlicher Systeme und interessiert sich für moderne Softwarearchitekturen.
 
 Link zum Votrag: https://viadee.github.io/micronaut-spring-koexistenz
