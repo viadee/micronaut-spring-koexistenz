@@ -3,8 +3,9 @@ package de.viadee.parkhaus.manager.service;
 import de.viadee.parkhaus.manager.config.ParkhausConfig;
 import de.viadee.parkhaus.manager.entity.Parkticket;
 import de.viadee.parkhaus.manager.repository.ParkticketRepository;
+import jakarta.inject.Singleton;
 
-import javax.inject.Singleton;
+
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
 import java.util.List;

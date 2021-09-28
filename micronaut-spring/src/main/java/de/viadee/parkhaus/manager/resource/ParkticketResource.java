@@ -49,4 +49,5 @@ public class ParkticketResource {
     public Boolean isAllowedToExit(@PathVariable("id") String id) {
         return parkticketService.isAllowedToExit(id);
     }
+
 }

@@ -15,15 +15,16 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <surefire-plugin.version>2.22.2</surefire-plugin.version>
         <failsafe-plugin.version>2.22.2</failsafe-plugin.version>
-        <micronaut.version>2.3.4</micronaut.version>
-        <micronaut.data.version>2.3.0</micronaut.data.version>
+        <micronaut.version>3.0.2</micronaut.version>
+        <micronaut.data.version>3.0.0</micronaut.data.version>
+        <micronaut.runtime>netty</micronaut.runtime>
         <exec.mainClass>de.viadee.parkhaus.manager.ParkhausManagerApp</exec.mainClass>
     </properties>
 
     <parent>
         <groupId>io.micronaut</groupId>
         <artifactId>micronaut-parent</artifactId>
-        <version>2.3.4</version>
+        <version>3.0.2</version>
     </parent>
 
     <repositories>
@@ -93,16 +94,6 @@
         <dependency>
             <groupId>io.micronaut</groupId>
             <artifactId>micronaut-management</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>io.micronaut.micrometer</groupId>
-            <artifactId>micronaut-micrometer-core</artifactId>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>io.micronaut.micrometer</groupId>
-            <artifactId>micronaut-micrometer-registry-prometheus</artifactId>
-            <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>

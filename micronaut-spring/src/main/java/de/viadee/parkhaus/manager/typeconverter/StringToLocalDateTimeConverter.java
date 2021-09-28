@@ -2,8 +2,8 @@ package de.viadee.parkhaus.manager.typeconverter;
 
 import io.micronaut.core.convert.ConversionContext;
 import io.micronaut.core.convert.TypeConverter;
+import jakarta.inject.Singleton;
 
-import javax.inject.Singleton;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Optional;

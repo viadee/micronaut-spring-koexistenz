@@ -10,17 +10,17 @@
     <packaging>jar</packaging>
     <jdk.version>11</jdk.version>
     <release.version>11</release.version>
-    <micronaut.version>2.3.4</micronaut.version>
-    <micronaut.data.version>2.2.4</micronaut.data.version>
+    <micronaut.version>3.0.2</micronaut.version>
+    <micronaut.data.version>3.0.0</micronaut.data.version>
     <exec.mainClass>de.viadee.parkhaus.manager.ParkhausManagerApp</exec.mainClass>
-    <micronaut.spring.version>3.1.0</micronaut.spring.version>
+    <micronaut.spring.version>4.0.0</micronaut.spring.version>
     <micronaut.runtime>netty</micronaut.runtime>
   </properties>
 
     <parent>
       <groupId>io.micronaut</groupId>
       <artifactId>micronaut-parent</artifactId>
-      <version>2.3.4</version>
+      <version>3.0.2</version>
     </parent>
 
     <repositories>
@@ -64,16 +64,6 @@
       <dependency>
         <groupId>io.micronaut</groupId>
         <artifactId>micronaut-management</artifactId>
-        <scope>compile</scope>
-      </dependency>
-      <dependency>
-        <groupId>io.micronaut.micrometer</groupId>
-        <artifactId>micronaut-micrometer-core</artifactId>
-        <scope>compile</scope>
-      </dependency>
-      <dependency>
-        <groupId>io.micronaut.micrometer</groupId>
-        <artifactId>micronaut-micrometer-registry-prometheus</artifactId>
         <scope>compile</scope>
       </dependency>
       <dependency>
