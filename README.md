@@ -7,4 +7,4 @@ Die Faszination um neue Java-Frameworks wie Micronaut ist ungebrochen. Der Einst
 ## Über die Speakerin
 Pia Diedam ist seit 2017 Beraterin bei der viadee IT-Unternehmensberatung. Seit dem Studium der Wirtschaftsinformatik ist sie sowohl im internen Forschungs- und Entwicklungsbereich, als auch extern im Kundeneinsatz an Java-Projekten beteiligt. Sie ist begeistert von dem Zusammenspiel unterschiedlicher Systeme und interessiert sich für moderne Softwarearchitekturen.
 
-Link zum Votrag: https://viadee.github.io/micronaut-spring-koexistenz
+Link zum Vortag: https://viadee.github.io/micronaut-spring-koexistenz
